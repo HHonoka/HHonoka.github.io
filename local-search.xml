@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Mysql学习</title>
+    <link href="/2025/03/25/Mysql%E5%AD%A6%E4%B9%A0/"/>
+    <url>/2025/03/25/Mysql%E5%AD%A6%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Mysql"><a href="#Mysql" class="headerlink" title="Mysql"></a>Mysql</h1><h2 id="⭐️Mysql重点知识"><a href="#⭐️Mysql重点知识" class="headerlink" title="⭐️Mysql重点知识"></a>⭐️Mysql重点知识</h2><h3 id="Mysql索引详解"><a href="#Mysql索引详解" class="headerlink" title="Mysql索引详解"></a>Mysql索引详解</h3><ul><li>索引介绍</li></ul><hr><p><strong>索引是一种用于快速查询和检索数据的数据结构，其本质可以看成是一种排序好的数据结构。</strong></p><p>- </p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>New Blog 123 123 123</title>
     <link href="/2025/03/25/New-Blog/"/>
     <url>/2025/03/25/New-Blog/</url>
