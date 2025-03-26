@@ -8,9 +8,15 @@
     <link href="/2025/03/25/Mysql%E5%AD%A6%E4%B9%A0/"/>
     <url>/2025/03/25/Mysql%E5%AD%A6%E4%B9%A0/</url>
     
-    <content type="html"><![CDATA[<h1 id="Mysql"><a href="#Mysql" class="headerlink" title="Mysql"></a>Mysql</h1><h2 id="⭐️Mysql重点知识"><a href="#⭐️Mysql重点知识" class="headerlink" title="⭐️Mysql重点知识"></a>⭐️Mysql重点知识</h2><h3 id="Mysql索引详解"><a href="#Mysql索引详解" class="headerlink" title="Mysql索引详解"></a>Mysql索引详解</h3><ul><li>索引介绍</li></ul><hr><p><strong>索引是一种用于快速查询和检索数据的数据结构，其本质可以看成是一种排序好的数据结构。</strong></p><p>- </p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Mysql索引"><a href="#Mysql索引" class="headerlink" title="Mysql索引"></a>Mysql索引</h1><h2 id="Mysql索引详解"><a href="#Mysql索引详解" class="headerlink" title="Mysql索引详解"></a>Mysql索引详解</h2><hr><pre><code class="hljs">索引是mysql非常重要得一部分，现在版本的mysql多数选择innodb作为引擎索引底层数据结构存在很多种类型，常见的索引结构有：B 树、 B+ 树 和 Hash、红黑树。在 MySQL 中，无论是 Innodb 还是 MyISAM，都使用了 B+ 树作为索引结构。</code></pre><h2 id="索引的优点和缺点"><a href="#索引的优点和缺点" class="headerlink" title="索引的优点和缺点"></a>索引的优点和缺点</h2><hr><ul><li>优点<ul><li>使用索引可以大大加快数据的检索速度（大大减少检索的数据量），减少 IO 次数，这也是创建索引的最主要的原因。</li><li>通过创建唯一性索引，可以保证数据库表中每一行数据的唯一性。</li></ul></li><li>缺点<ul><li>创建和维护索引需要耗费许多时间。当对表中的数据进行增删改的时候，如果数据有索引，那么索引也需要动态地修改，这会降低 SQL 执行效率。</li><li>索引需要使用物理文件存储，也会耗费一定空间。</li></ul></li></ul><h2 id="索引底层数据结构"><a href="#索引底层数据结构" class="headerlink" title="索引底层数据结构"></a>索引底层数据结构</h2><hr>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>Mysql</tag>
+      
+    </tags>
     
   </entry>
   
